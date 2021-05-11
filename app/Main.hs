@@ -3,13 +3,6 @@
 {-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE DataKinds #-}
 
-------BUGS----------
--- I dont know why but "-81 = 3(-6 - 2n) – 3n" does not fully parse
--- it gets cut off at "- 2n)" missing - 3n
-
---"-6(n – 7) = 84" parses as [-,6,"n","=",84] missing the - 7
-
--- I think it is the subtraction operator
 
 module Main where
 
